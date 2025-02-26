@@ -13,7 +13,7 @@ while True:
         key = cv2.waitKey(1)
         if key == ord('c'): 
             # cv2.imwrite(filename='img.jpg', img=frame)
-            cv2.imwrite("output.png", frame);
+            cv2.imwrite("output2.png", frame)
             webcam.release()
             img_ = cv2.imread('saved_img.jpg', cv2.IMREAD_ANYCOLOR)
 
